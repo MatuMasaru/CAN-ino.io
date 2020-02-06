@@ -1,7 +1,74 @@
 .header{
-    background: rgb(54, 27, 27);
+    background:linear-gradient(to right,#00c4cc,#7d2ae8)         ;
 }
 
 body{
     background: yellowgreen;
 }
+.navegador{
+    font-size: 18px;
+
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Kelly Slab', cursive;
+    color:#ffffff;
+}
+
+.logo span{
+    font-family: 'Indie Flower', cursive;
+}
+.enlaces{
+    color: #ffffff;
+}
+
+.dropdown-menu{
+    background:linear-gradient(to right,#1ba2d2,#2e8cd6) ; 
+    font-family: 'Indie Flower', cursive;
+    font-size: 0.8em;
+   
+    
+}
+
+.dropdown-item{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.dropdown-menu .dropdown-item:hover{
+    background: none;
+    color: #3e2461;
+
+}
+
+.boton-ingreso{
+    color: #ffffff;
+}
+
+
+/* @media only screen and ( max-width :800px ){
+
+
+
+    font-family: 'Zhi Mang Xing', cursive;
+
+    font-family: 'Indie Flower', cursive;
+
+    font-family: 'Kelly Slab', cursive;
+
+
+
+
+    body{
+        background: palevioletred;
+    }
+    nav{
+        background: red;
+    }
+
+    .navegador{
+        color: bisque;
+    }
+} */
