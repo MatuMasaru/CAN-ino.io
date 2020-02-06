@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     background:linear-gradient(to right,#00c4cc,#7d2ae8)         ;
 }
@@ -47,6 +52,25 @@ body{
     color: #ffffff;
 }
 
+.contenedor-presentacion{
+    background-image: url(https://files.123inventatuweb.com/acens243823/image/b3f975ac-0720-43c0-85b5-f8abc30c52b4.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100vw 100vh;
+}
+
+
+
+
+
+/* .contenedor-presentacion .presentacion-text{
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+}
+ */
 
 /* @media only screen and ( max-width :800px ){
 
@@ -58,17 +82,4 @@ body{
 
     font-family: 'Kelly Slab', cursive;
 
-
-
-
-    body{
-        background: palevioletred;
-    }
-    nav{
-        background: red;
-    }
-
-    .navegador{
-        color: bisque;
-    }
 } */
